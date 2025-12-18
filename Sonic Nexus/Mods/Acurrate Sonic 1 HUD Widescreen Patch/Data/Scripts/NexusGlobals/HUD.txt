@@ -62,7 +62,7 @@ sub ObjectDraw
 		DrawNumbers(0,103,7,PScore,6,8,0)
 
 		//Draw Milliseconds
-		DrawNumbers(0,103,23,Stage.MilliSeconds,2,8,1)
+		DrawNumbers(0,103,23,Stage.MilliSeconds,0,0,0)
 
 		//Draw Seconds
 		DrawNumbers(0,79,23,Stage.Seconds,2,8,1)
@@ -118,7 +118,7 @@ sub ObjectDraw
 		//Draw Milliseconds
 		TempValue0=Object.TimeXPos
 		TempValue0+=88
-		DrawNumbers(0,TempValue0,23,Stage.MilliSeconds,2,8,1)
+		DrawNumbers(0,TempValue0,23,Stage.MilliSeconds,0,0,0)
 
 		//Draw Seconds
 		TempValue0=Object.TimeXPos
@@ -162,31 +162,31 @@ sub ObjectStartup
 	loop
 
 	//Numbers 0-9
-	SpriteFrame(0,0,8,11,172,398)
-	SpriteFrame(0,0,8,11,172,410)
-	SpriteFrame(0,0,8,11,172,422)
-	SpriteFrame(0,0,8,11,172,434)
-	SpriteFrame(0,0,8,11,172,446)
-	SpriteFrame(0,0,8,11,181,398)
-	SpriteFrame(0,0,8,11,181,410)
-	SpriteFrame(0,0,8,11,181,422)
-	SpriteFrame(0,0,8,11,181,434)
-	SpriteFrame(0,0,8,11,181,446)
+	SpriteFrame(0,0,7,11,171,398)
+	SpriteFrame(0,0,7,11,171,410)
+	SpriteFrame(0,0,7,11,171,422)
+	SpriteFrame(0,0,7,11,171,434)
+	SpriteFrame(0,0,7,11,171,446)
+	SpriteFrame(0,0,7,11,179,398)
+	SpriteFrame(0,0,7,11,179,410)
+	SpriteFrame(0,0,7,11,179,422)
+	SpriteFrame(0,0,7,11,179,434)
+	SpriteFrame(0,0,7,11,179,446)
 	
 	//Score Graphic
-	SpriteFrame(0,0,40,11,131,398)
+	SpriteFrame(0,0,39,11,131,398)
 	//Time Graphic
-	SpriteFrame(0,0,40,11,131,410)
+	SpriteFrame(0,0,39,11,131,410)
 	//Rings Graphic
-	SpriteFrame(0,0,40,11,131,422)
+	SpriteFrame(0,0,39,11,131,422)
 	
 	//Red Time Graphic
-	SpriteFrame(0,0,40,11,131,434)
+	SpriteFrame(0,0,39,11,131,434)
 	//Red Rings Graphic
-	SpriteFrame(0,0,40,11,131,446)
+	SpriteFrame(0,0,39,11,131,446)
 	
 	//Seconds markings
-	SpriteFrame(0,0,29,4,131,458)
+	SpriteFrame(0,2,3,7,187,398)
 
 	//Small Numbers 0-9
 	SpriteFrame(0,0,8,8,355,136)

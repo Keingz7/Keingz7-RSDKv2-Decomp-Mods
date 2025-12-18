@@ -74,7 +74,7 @@ sub ObjectDraw
 		DrawNumbers(0,79,39,Rings[0],3,8,0)
 
 		DrawLifeIcon(15,215)
-		DrawNumbers(16,55,223,PLives,1,8,1)
+		DrawNumbers(0,40,220,PLives,1,8,1)
 		break
 
 	case 1 //HUD Entering
@@ -162,43 +162,31 @@ sub ObjectStartup
 	loop
 
 	//Numbers 0-9
-	SpriteFrame(0,0,8,11,172,398)
-	SpriteFrame(0,0,8,11,172,410)
-	SpriteFrame(0,0,8,11,172,422)
-	SpriteFrame(0,0,8,11,172,434)
-	SpriteFrame(0,0,8,11,172,446)
-	SpriteFrame(0,0,8,11,181,398)
-	SpriteFrame(0,0,8,11,181,410)
-	SpriteFrame(0,0,8,11,181,422)
-	SpriteFrame(0,0,8,11,181,434)
-	SpriteFrame(0,0,8,11,181,446)
+	SpriteFrame(0,0,7,13,171,398)
+	SpriteFrame(0,0,7,13,171,412)
+	SpriteFrame(0,0,7,13,171,426)
+	SpriteFrame(0,0,7,13,171,440)
+	SpriteFrame(0,0,7,13,179,398)
+	SpriteFrame(0,0,7,13,179,412)
+	SpriteFrame(0,0,7,13,179,426)
+	SpriteFrame(0,0,7,13,179,440)
+	SpriteFrame(0,0,7,13,179,454)
+	SpriteFrame(0,0,7,13,179,468)
 	
 	//Score Graphic
-	SpriteFrame(0,0,40,11,131,398)
+	SpriteFrame(0,0,39,14,131,398)
 	//Time Graphic
-	SpriteFrame(0,0,40,11,131,410)
+	SpriteFrame(0,0,39,14,131,413)
 	//Rings Graphic
-	SpriteFrame(0,0,40,11,131,422)
+	SpriteFrame(0,0,39,14,131,428)
 	
 	//Red Time Graphic
-	SpriteFrame(0,0,40,11,131,434)
+	SpriteFrame(0,0,39,14,131,443)
 	//Red Rings Graphic
-	SpriteFrame(0,0,40,11,131,446)
+	SpriteFrame(0,0,39,14,131,458)
 	
 	//Seconds markings
-	SpriteFrame(0,0,29,4,131,458)
-
-	//Small Numbers 0-9
-	SpriteFrame(0,0,8,8,355,136)
-	SpriteFrame(0,0,8,8,364,136)
-	SpriteFrame(0,0,8,8,373,136)
-	SpriteFrame(0,0,8,8,382,136)
-	SpriteFrame(0,0,8,8,355,145)
-	SpriteFrame(0,0,8,8,364,145)
-	SpriteFrame(0,0,8,8,373,145)
-	SpriteFrame(0,0,8,8,382,145)
-	SpriteFrame(0,0,8,8,391,136)
-	SpriteFrame(0,0,8,8,391,145)
+	SpriteFrame(0,0,29,5,131,473)
 end sub
 
 sub RSDK

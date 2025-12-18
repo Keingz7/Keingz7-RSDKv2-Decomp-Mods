@@ -62,7 +62,7 @@ sub ObjectDraw
 		DrawNumbers(0,103,7,PScore,6,8,0)
 
 		//Draw Milliseconds
-		DrawNumbers(0,103,23,Stage.MilliSeconds,2,8,1)
+		DrawNumbers(0,103,23,Stage.MilliSeconds,0,0,0)
 
 		//Draw Seconds
 		DrawNumbers(0,79,23,Stage.Seconds,2,8,1)
@@ -118,7 +118,7 @@ sub ObjectDraw
 		//Draw Milliseconds
 		TempValue0=Object.TimeXPos
 		TempValue0+=88
-		DrawNumbers(0,TempValue0,23,Stage.MilliSeconds,2,8,1)
+		DrawNumbers(0,TempValue0,23,Stage.MilliSeconds,0,0,0)
 
 		//Draw Seconds
 		TempValue0=Object.TimeXPos
@@ -186,7 +186,7 @@ sub ObjectStartup
 	SpriteFrame(0,0,40,11,131,446)
 	
 	//Seconds markings
-	SpriteFrame(0,0,29,4,131,458)
+	SpriteFrame(0,2,3,7,190,409)
 
 	//Small Numbers 0-9
 	SpriteFrame(0,0,8,8,355,136)
