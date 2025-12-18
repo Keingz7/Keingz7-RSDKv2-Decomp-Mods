@@ -2,9 +2,9 @@
 - Here you can see my Sonic Nexus mods.
 - Please note that you must have the game, along with the decompilation to be able to use the mods.
    You can get official release of Sonic Nexus from:
-  * Via SonicRetro, from [Sonic Nexus]([https://store.steampowered.com/app/1794960](https://info.sonicretro.org/Sonic_Nexus))
+  * Via SonicRetro, from [Sonic Nexus](https://info.sonicretro.org/Sonic_Nexus)
   * Via the Github, from [RSDKv2](https://github.com/RSDKModding/RSDKv2-Decompilation)
-  * You can extract the game assets with [RetroED](https://gamebanana.com/tuts/14491).
+  * You can extract the game assets with [RetroED](https://gamebanana.com/tuts/14491)
 # Mods Preview for Sonic Nexus
 ## Acurrate Sonic Forever HUD
 ![Miniature (x2)](https://github.com/user-attachments/assets/a735a599-95ae-4c53-a6b0-f6c7bc840dc0)
