@@ -1,7 +1,7 @@
 # Keingz7's RSDKv2 Decompilation Mods
 - Here you can see my Sonic Nexus mods.
 - Please note that you must have the game, along with the decompilation to be able to use the mods.
-   You can get official releases of Sonic Nexus from:
+   You can get official release of Sonic Nexus from:
   * Windows
     * Via SonicRetro, from [Sonic Nexus]([https://store.steampowered.com/app/1794960](https://info.sonicretro.org/Sonic_Nexus))
     * Via the Github, from [RSDKv2](https://github.com/RSDKModding/RSDKv2-Decompilation)
